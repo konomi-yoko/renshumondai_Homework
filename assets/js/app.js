@@ -34,7 +34,11 @@ $(function(){
 
 	// Q6
 	$('#q6-btn').on('click',function(){
-		$('.q6-text').after('<p class="red">追加</p>')
+		// $('.q6-text').after('<p class="red">追加文字</p>')
+		p_tag = $('<p>');
+		p_tag.text('追加文字');
+		p_tag.addClass('red');
+		$('.q6-text').append(p_tag);
 	});
 
 // Q7

@@ -124,6 +124,13 @@ p.orange-ball{
 /* Q11ここまで */
 
 /* Q12 */
+
+/*.q12-target {
+  position: fixed;
+  top: 0;
+  right: 0;
+}*/
+
 .q12-target.hide {
   transform: translateX(-100px);
   /* transform: translateX(100vw); */
